@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SEVENDEUCE</title>
+  <style>
+    :root{
+      --bg: #000;
+      --seven: #ffffff;
+      --deuce: #d3d3d3;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: clamp(48px, 12vw, 160px);
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+
+    .seven { color: var(--seven); }
+    .deuce { color: var(--deuce); }
+  </style>
+</head>
+<body>
+  <div class="logo"><span class="seven">SEVEN</span><span class="deuce">DEUCE</span></div>
+</body>
+</html>
